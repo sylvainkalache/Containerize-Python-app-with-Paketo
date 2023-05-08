@@ -1,0 +1,6 @@
+[packages]
+Flask = "*"
+gunicorn = "*"
+requests = "*"
+noaa-sdk = "*"
+
