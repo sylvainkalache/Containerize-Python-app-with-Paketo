@@ -8,4 +8,7 @@ app = Flask(__name__)
 def hello():
     return 'Hello, TheNewStack readers!\n'
 
-    
+@app.route("/dzone")
+def bonjour():
+    return "Hello, Dzone readers!\n"
+
